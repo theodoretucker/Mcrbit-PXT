@@ -117,8 +117,7 @@ h1 {
   padding: 10px 10px;
   border-radius: 5px;
 }
-.activity img,
-video {
+.activity img, video {
   padding: 5px;
   border-radius: 10px;
   margin-left: auto;
@@ -185,6 +184,7 @@ h3 {
   width: 100%;
   border-top: 3px dotted #0061a2;
 }
+
 /*CSS FOR LISTS*/
 li:before {
   clear: none;
