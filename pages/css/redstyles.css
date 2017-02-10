@@ -205,3 +205,21 @@ ul {
   list-style-type: none;
   line-height: 24px;
 }
+
+p code,
+li code {
+  border-radius: 4px 4px 4px 4px;
+  background: #B9E5FA;
+  padding: 2px 5px;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap !important;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+}
