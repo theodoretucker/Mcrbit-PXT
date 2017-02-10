@@ -1,34 +1,10 @@
-/*GitHub Ribbon*/
-.ribbon {
-  background-color: #A30000;
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-  left: -50px;
-  top: 40px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.ribbon a {
-  border: 1px solid #faa;
-  color: #fff;
-  display: block;
-  font: bold 81.25% 'Ubuntu', Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-}
 /*Main Styles*/
 * {
   margin: 0px padding: 0px;
   font: Arial, Helvetica, sans-serif;
 }
 html {
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   background: #FFF;
 }
@@ -60,7 +36,7 @@ p code {
 }
 pre {
   font-size: 16px;
-  font-family: 'Ubuntu mono', "Courier New", Courier, monospace;
+  font-family: "Inconsolata", Courier, monospace;
   font-weight: 400;
   line-height: 1.5;
   clear: both;
