@@ -134,7 +134,7 @@ h1 {
 }
 /* CSS for sub activities*/
 .learn h3 {
-  background-image: url(icons/Learn.svg);
+  background-image: url(icons/Learn.png);
 }
 .research h3 {
   background-image: url(icons/Research.png);
@@ -149,25 +149,25 @@ h1 {
   background-image: url(icons/Test.png);
 }
 .run h3 {
-  background-image: url(icons/Run.svg);
+  background-image: url(icons/Run.png);
 }
 .document h3 {
   background-image: url(icons/Document.png);
 }
 .code h3 {
-  background-image: url(icons/Code.svg);
+  background-image: url(icons/Code.png);
 }
 .program h3 {
   background-image: url(icons/Program.png);
 }
 .try h3 {
-  background-image: url(icons/Try.svg);
+  background-image: url(icons/Try.png);
 }
 .badge h3 {
-  background-image: url(icons/Badge.svg);
+  background-image: url(icons/Badge.png);
 }
 .save h3 {
-  background-image: url(icons/Save.svg);
+  background-image: url(icons/Save.png);
 }
 h3 {
   color: #0061a2;
