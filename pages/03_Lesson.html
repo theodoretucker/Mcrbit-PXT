@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Micro:bit PXT - Beginner 03</title>
+		<link rel="stylesheet" type="text/css" href="css/bluestyles.css"/>
+	</head>
+	
+	<body>
+		<div id="content">
+			<h1 class="title">Micro:bit PXT - Beginner</h1>
+			<p><a href="../index.html" class="link-heading" style="color: white;">&#8592; Home</a> <a href="../beginner.html" class="link-heading" style="color: white;">&#8592; Beginner Lessons</a></p>
+				<div class="outline-2 activity">
+					<h2>Lesson 03 - Answering Machine</h2>
+					<div class="outline-3 learn">
+						<h3>Intro</h3>
+						<p>In this lesson, you will learn how to make the micro:bit display text on the LED screen, and how to use the buttons. You will create the project shown in the video below.</p>
+						<video controls>
+						<source src="img/Lesson03_a.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+						</video>
+						<p>The micro:bit will display <code>ASK ME A QUESTION</code>, and will then display <code>YES</code> or <code>NO</code> depending on which button the user presses.</p>
+					</div>
+					<div class="outline-3 code">
+						<h3>Code It</h3>
+						<ul>
+							<li>Create a new project and drag out a <code>show string</code> block, and set the argument (the string to be shown) as in the code sample below.</li>
+							<li>As the string (a programming term for text) is too long to fit on the LED matrix all at once, it scrolls across the display.</li>
+							<img src="img/Lesson03_b.png" alt="code example">
+							<li>Remember to put the code inside an <code>on start</code> block.</li>
+						</ul>
+					</div>
+					<div class="outline-3 learn">
+						<h3>Learn It</h3>
+						<ul>
+							<li>Notice how in the previous lessons, our code has been contained in a <code>forever</code> block.</li>
+							<li>Blocks like this are called listeners, as they are listening for an event.</li>
+							<li>The following blocks are all listeners:</li>
+							<img src="img/Lesson03_c.png" alt="listeners">
+							<li>In this lesson, we have used an <code>on start</code> block, as we only want this section of code to run once, not forever.</li>
+						</ul>
+					</div>
+					<div class="outline-3 code">
+						<h3>Code It</h3>
+						<ul>
+							<li>Listeners do not just have to be <code>on start</code> or <code>forever</code>. They can 'listen' for physical events, such as pressing one of the micro:bit's two buttons, labelled A and B.</li>
+							<li>When button A is pressed, we want the micro:bit to display <code>YES</code>.</li>
+							<li>When button B is pressed, we want the micro:bit to display <code>NO</code>.</li>
+							<li>Add two <code>on button A pressed</code> blocks. They can be found in the Input tab.</li>
+							<li>For one of these blocks, change the <code>A</code> to <code>B</code> using the drop down menu.<li>
+							<li>Add <code>show string</code> blocks inside the new listeners, as per the instructions. Your finished code should look like this:</li>
+							<img src="img/Lesson03_d.png" alt="code example">
+						</ul>
+					</div>
+					<div class="outline-3 save">
+						<h3>Save It</h3>
+						<ul>
+							<li>Download your code into the directory setup in the previous lesson, and call the file:</li>
+							<pre>microbit-lesson03a.hex</pre>
+						</ul>
+					</div>
+					<div class="outline-3 test">
+						<h3>Test It</h3>
+						<ul>
+							<li>Flash the code file onto the micro:bit.</li>
+							<li>The micro:bit should behave as shown in the first video.</li>
+							<li>Did your code work? If so, well done! If not, look through the code to find any mistakes. You can find a code listing above.</li>
+							<li>Now move on to the challenges...</li>
+						</ul>
+					</div>
+					<div class="outline-3 try">
+						<h3>Challenges</h3>
+						<ul>
+							<li><b>Challenge 1:</b></li>
+							<ul>
+								<li>Add a new listener to your code, so that when buttons A and B are pressed at the same time, the message <code>MAYBE</code> is displayed on the screen.</li>
+								<li>HINT: Look in the drop down menu for the <code>on button A pressed</code> block.</li>
+								<li>Save your code with the following filename:</li>
+								<pre>microbit-lesson03b.hex</pre>
+								<li>Flash the code file onto the micro:bit.</li>
+								<li>Did your code work as intended? If so, well done. If not, look at your code to find any mistakes. Try speaking what your code is doing out loud in 'human language' to find and obvious errors.</li>
+								<li>Programmers always try to find problems themselves first before asking someone else, but if you get really stuck, ask a classmate or your teacher.</li>
+							</ul>
+						</ul>
+					</div>
+					<div class="outline-3 badge">
+						<h3>Finish</h3>
+						<ul>
+							<p>Congratulations! You have now completed lesson 3. Go back to the Beginner index, and move on to the next lesson.</p>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>
